@@ -12,7 +12,7 @@ public class TestSelenium {
     public void ChromeDriverSetUptest()
     {
         System.out.print("passed");
-        System.setProperty("webdriver.chrome.driver","/Users/Priyadarshi/Desktop/Selenium/src/server/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/Priyadarshi/Desktop/Selenium/Selenium_2023/src/server/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.in/");
         driver.manage().window().maximize();
