@@ -8,4 +8,15 @@ public class test2 {
     {
         System.out.print("test passed");
     }
+    @Test
+    public void test1()
+    {
+        System.out.print("test passed");
+    }
+
+    @Test
+    public void test2()
+    {
+        System.out.print("test passed");
+    }
 }
